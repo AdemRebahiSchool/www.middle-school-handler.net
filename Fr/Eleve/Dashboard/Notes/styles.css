@@ -1,0 +1,45 @@
+/* Add your CSS styles here */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    background-color: #2E2E2E;
+    padding: 10px;
+    color: white;
+}
+
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+} 
+
+.container {
+    margin: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid #000;
+    border-radius:20px;
+}
+
+.table th, .table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    border-radius:5px;
+}
+
+.table th {
+    background-color: #2E2E2E;
+    color: white;
+}
+
+

@@ -1,0 +1,132 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    display:flex;
+    background-color: #f5f5f5;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar img {
+    height: 50px;
+    margin-top: 5px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+
+
+.homework-item {
+    text-align:center;
+    border: 5px solid #000;
+    border-radius: 20px;
+    width: 40%;
+    padding:30px;
+    box-shadow: 0px 20px 30px #000;
+}
+
+/* Additional style for Histoire Géographie */
+.homework-item.histgeo {
+    border-color: orange;
+}
+
+/* Additional style for Français */
+.homework-item.francais {
+    border-color: red;
+}
+
+.Color.francais {
+    color:red;
+    background:red;
+    font-size:20px;
+    width:10px;
+    margin:5px;
+}
+
+.Color.histgeo {
+    color:orange;
+    background:orange;
+    font-size:20px;
+    width:10px;
+    margin:5px;
+}
+
+.Color.Music {
+    color:#d2b48c;
+    background:#d2b48c;
+    font-size:20px;
+    width:10px;
+    margin:5px;
+}
+
+.Color.histgeo {
+    color:orange;
+    background:orange;
+    font-size:20px;
+    width:10px;
+    margin:5px;
+}
+
+
+.homework-item.sport {
+    border-color: rgb(255, 237, 117);
+}
+
+.homework-item.anglais {
+    border-color: rgb(0, 60, 115);
+}
+
+
+.homework-item.Link{
+    color: blue;
+} 
+
+
+
+.homework-item.HeadDiv {
+    border: 2px solid #000;
+}
+
+hr {
+    height: 3px;
+    width: 500px;
+    box-shadow: 0px 0px 5px 10px rgb(0, 191, 255);
+    background-color: #000;
+    border: none;
+}
+
+
+
+a {
+    text-decoration:none;
+    padding:5px;
+    border:2px solid #000;
+    margin:11px;
+    border-radius:20px;
+}

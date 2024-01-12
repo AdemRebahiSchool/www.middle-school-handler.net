@@ -1,0 +1,48 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+body {
+    text-align: center;
+}
+
+
+nav {
+    background: rgb(7, 127, 255);
+    height: 90px;
+    padding: 10px;
+    border-radius: 20px;
+    color:#fff;
+}
+
+
+nav a {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    float: left;
+    font-size: 20px;
+    margin: 30px;
+}
+nav a:hover {
+    background: #fff;
+    padding: 10px;
+    border-radius: 13px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: rgb(43, 0, 255);
+    float: left;
+    font-size: 20px;
+    transition: all 0.1s;
+}
+
+
+#ImgofProfile {
+    border: 2px solid #000;
+    float: right;
+    width:4.3%;
+    margin-top: 5;
+    height:80%;
+    border-radius: 15px;
+}
