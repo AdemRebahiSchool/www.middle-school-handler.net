@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Collège Robespierre</title>
-    <link rel="stylesheet" href="/Style/IndexWelcome.css">
-    <link rel="shortcut icon" href="/Img/Logo.png">
+    <link rel="stylesheet" href="Style/IndexWelcome.css">
+    <link rel="shortcut icon" href="Img/Logo.png">
     
     
 </head>
@@ -43,7 +43,7 @@
                 <h2>Parent <button class="ButtonOption"><a href="">-></a></button></h2>
             </div>
             <div class="Student">
-                <h2>Elève <button class="ButtonOption"><a href="/Fr/Eleve/Login.php">-></a></button></h2>
+                <h2>Elève <button class="ButtonOption"><a href="Fr/Eleve/Login.php">-></a></button></h2>
             </div>
         </div>
         <h4>WEBSITE MADE BY: ADEM REBAHI <br>(Pupils of Middle School Maximilien Robespierre, 6A) <br><br>Made in years 2023-2024</h4>
@@ -53,3 +53,4 @@
     <script src="/Javascript/IndexWelcome.js"></script>
 </body>
 </html>
+
